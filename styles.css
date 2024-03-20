@@ -9,4 +9,5 @@ html {
 
   body {
     background-image: url(https://s12.gifyu.com/images/SUJtu.gif);
+    z-index: -1;
   }
