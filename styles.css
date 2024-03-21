@@ -5,21 +5,30 @@ html {
   }
   *, *:before, *:after {
     box-sizing: inherit;
+    margin: 0;
   }
 
   body {
     background-image: url(https://s12.gifyu.com/images/SUJtu.gif);
     z-index: -1;
+    
     }
 
-   
+   .container {
+    margin: 140px;
+   }
 
   .title {
+    
     text-align: center;
-    font-size: 45px;
+    font-size: 65px;
+    font-family: "Viaoda Libre";
+    font-weight: bolder;
     color: white;
-    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
-  }
+    text-shadow: 10px 3px 5px rgba(0, 5, 5, 0.5);
+    margin-bottom: 60px;
+    
+}
 
 
   .photo img {
