@@ -12,6 +12,15 @@ html {
     z-index: -1;
     }
 
+   
+
+  .title {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+  }
+
 
   .photo img {
     width: 250px; 
