@@ -14,13 +14,15 @@ html {
   }
 
   
+  
   .photo img {
-    height: 125px;
-    width: 140px;
+    width: 250px; 
+    height: 225px; 
     object-fit: cover;
     border: 5px solid black;
     border-radius: 20px 20px;
     display: block;
+  
     
   }
 
@@ -29,6 +31,7 @@ html {
     flex-direction: row;
     justify-content: center;
     text-align: center;
+    
   }
 
   
