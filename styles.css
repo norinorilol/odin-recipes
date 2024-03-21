@@ -10,11 +10,12 @@ html {
   body {
     background-image: url(https://s12.gifyu.com/images/SUJtu.gif);
     z-index: -1;
+    background-size: cover;
   }
 
   
   .photo img {
-    height: 120px;
+    height: 125px;
     width: 140px;
     object-fit: cover;
     border: 5px solid black;
@@ -26,6 +27,8 @@ html {
   .photo {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    text-align: center;
   }
 
   
