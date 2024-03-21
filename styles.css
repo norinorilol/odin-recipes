@@ -27,12 +27,16 @@ html {
     
   }
 
+  .photo img:hover {
+    transform: scale(1.1); /* Increase size on hover */
+  }
+
   .photo {
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    
+  
   }
 
   
