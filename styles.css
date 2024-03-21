@@ -80,3 +80,11 @@ html {
     text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
     
   }
+
+  @keyframes slide-in {
+    from { transform: translateX(-100%); }
+    to   { transform: translateY(0%); }
+  }
+  
+  .container {
+  animation: slide-in 2000ms;}
