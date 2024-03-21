@@ -12,9 +12,10 @@ html {
     z-index: -1;
   }
 
+  
   .photo img {
-    height: 225px;
-    width: 250px;
+    height: 120px;
+    width: 140px;
     object-fit: cover;
     border: 5px solid black;
     border-radius: 20px 20px;
