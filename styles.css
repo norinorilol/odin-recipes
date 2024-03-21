@@ -26,10 +26,19 @@ html {
     font-weight: bolder;
     color: white;
     text-shadow: 10px 3px 5px rgba(0, 5, 5, 0.5);
-    margin-bottom: 60px;
+    margin-bottom: 15px;
     
 }
 
+.para {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Viaoda Libre";
+  font-weight: bolder;
+  color: white;
+  text-shadow: 10px 3px 5px rgba(0, 5, 5, 0.5);
+  
+}
 
   .photo img {
     width: 250px; 
@@ -55,6 +64,7 @@ html {
     flex-direction: row;
     justify-content: center;
     text-align: center;
+    padding-top: 30px;
   }
 
 
