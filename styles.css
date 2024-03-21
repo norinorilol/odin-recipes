@@ -13,8 +13,7 @@ html {
     
   }
 
-  
-  
+
   .photo img {
     width: 250px; 
     height: 225px; 
@@ -23,20 +22,21 @@ html {
     border-radius: 20px 20px;
     display: block;
     margin: 18px 8px;
-  
-    
+    transition: transform 0.3s;
   }
 
   .photo img:hover {
     transform: scale(1.1); /* Increase size on hover */
   }
 
+  
+
+
   .photo {
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
-  
   }
 
   
