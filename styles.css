@@ -76,8 +76,11 @@ html {
   .caption {
     
     font-size: 22px;
+    font-family: "Viaoda Libre";
     color: white;
-    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+    text-shadow: 10px 3px 5px rgba(0, 5, 5, 0.5);
+    font-weight: 600;
+
     
   }
 
@@ -88,3 +91,36 @@ html {
   
   .container {
   animation: slide-in 2000ms;}
+
+
+
+
+
+  
+  
+  
+  /* Lasagne */
+
+.Lasagne {
+  color: white;
+  
+}
+
+
+
+.Lasagne img{
+  width: 250px;
+
+}
+
+.LasagneTitle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 100px;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
