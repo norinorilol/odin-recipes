@@ -111,16 +111,26 @@ html {
 .Lasagne img{
   width: 250px;
 
+  
+
 }
 
 .LasagneTitle{
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  position: absolute;
   padding-top: 100px;
-  justify-content: center;
+  padding-left: 825px;
   align-items: center;
+  flex-direction: column;
+  
+}
+.LasagneTitle h1 {
+  font-size: 75px;
   
   
 }
 
+.DescriptionLasagne {
+
+}
