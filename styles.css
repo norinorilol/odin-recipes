@@ -103,7 +103,8 @@ html {
 
 .Lasagne {
   color: white;
-  
+  font-family: "Viaoda Libre";
+  text-shadow: 10px 3px 5px rgba(0, 5, 5, 0.5);
 }
 
 
@@ -111,9 +112,9 @@ html {
 .Lasagne img{
   width: 250px;
   padding-top: 80px;
-
   
 
+  
 }
 
 .LasagneTitle{
@@ -133,18 +134,33 @@ html {
 }
 
 .DescriptionLasagne  {
-    padding-top: 190px;
+    padding-top: 210px;
     text-align: center;
 }
 
 .LasagneList {
   display: inline-block;
-  padding-top: 90px;
+  padding-top: 75px;
   padding-left: 465px;
+  
 }
 
-.LasagneList h2 {
-  padding-bottom: 15px;
+.border-Ingredients {
+  border: solid 2px rgb(255, 255, 255);
+  border-radius: 5px;
+
+}
+
+.bordered-list {
+  border: solid 2px rgb(255, 255, 255);
+  border-radius: 5px;
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid #ddd;
+  overflow: auto;
+  float:left;
+  
+  
 }
 
 .LasagneSteps {
@@ -154,12 +170,26 @@ html {
   top: 0px;
   width: 700px;
   margin-left: 1220px;
-  padding-top: 326px;
+  padding-top: 338px;
   flex-direction: column;
-
+  
 }
 
 .LasagneSteps h2 {
-  padding-bottom: 15px;
-  padding-left: 14px;
+  margin-bottom: 10px;
+  padding: 3px;
+
+  
 }
+
+.bordered-steps {
+  
+}
+
+.bordered-steps-text {
+  border: solid 5px rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 50px;
+  
+}
+
