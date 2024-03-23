@@ -101,54 +101,42 @@ html {
   
   /* Lasagne */
 
+
+
 .Lasagne {
   color: white;
   font-family: "Viaoda Libre";
   text-shadow: 10px 3px 5px rgba(0, 5, 5, 0.5);
 }
 
-
+.background-lasagne {
+  background-image: url(https://wallpapercave.com/wp/wp11620200.jpg);
+  height: 100vh;
+}
 
 .Lasagne img{
-  width: 250px;
-  padding-top: 80px;
-  
-
-  
-}
-
-.LasagneTitle{
+  width: 300px;
   display: flex;
-  justify-content: center;
   position: absolute;
-  padding-top: 100px;
-  padding-left: 830px;
-  align-items: center;
-  flex-direction: column;
-  
+  left: 70%;
+  top: 35%;
+  border: solid 5px white;  
 }
-.LasagneTitle h1 {
+
+h1 {
   font-size: 75px;
-  padding-bottom: 70px;
-  
+  text-align: center;
 }
 
 .DescriptionLasagne  {
-    padding-top: 210px;
+    
     text-align: center;
+    
 }
 
-.LasagneList {
-  display: inline-block;
-  padding-top: 75px;
-  padding-left: 465px;
-  
-}
-
-.border-Ingredients {
-  border: solid 2px rgb(255, 255, 255);
-  border-radius: 5px;
-
+.LasagneList h2 {
+  font-size: 50px;
+  text-align: center;
 }
 
 .bordered-list {
@@ -157,39 +145,45 @@ html {
   list-style-type: none;
   padding: 0;
   border: 1px solid #ddd;
-  overflow: auto;
+  overflow: hidden;
   float:left;
-  
-  
+  border-radius: 40px;
+}
+
+.lasagne-list span {
+  display: block;
+}
+
+.LasagneList {
+  display: inline-block;
+  position: absolute;
+  margin-top: 60px;
 }
 
 .LasagneSteps {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  top: 0px;
-  width: 700px;
-  margin-left: 1220px;
-  padding-top: 338px;
-  flex-direction: column;
-  
+  display: inline-block;
+  width: 750px;
+  margin-left: 350px;
+  margin-top: 60px; 
 }
 
 .LasagneSteps h2 {
-  margin-bottom: 10px;
-  padding: 3px;
-
-  
-}
-
-.bordered-steps {
-  
+  font-size: 50px;
+  text-align: center; 
 }
 
 .bordered-steps-text {
-  border: solid 5px rgb(255, 255, 255);
-  padding: 5px;
-  border-radius: 50px;
-  
+  border: solid 2px rgb(255, 255, 255);
+  border-radius: 5px;
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  float:left;
+  border-radius: 40px;
 }
 
+.back-button {
+  display: inline-block;
+  
+}
