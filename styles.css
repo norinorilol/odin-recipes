@@ -110,6 +110,7 @@ html {
 
 .Lasagne img{
   width: 250px;
+  padding-top: 80px;
 
   
 
@@ -120,17 +121,45 @@ html {
   justify-content: center;
   position: absolute;
   padding-top: 100px;
-  padding-left: 825px;
+  padding-left: 830px;
   align-items: center;
   flex-direction: column;
   
 }
 .LasagneTitle h1 {
   font-size: 75px;
-  
+  padding-bottom: 70px;
   
 }
 
-.DescriptionLasagne {
+.DescriptionLasagne  {
+    padding-top: 190px;
+    text-align: center;
+}
 
+.LasagneList {
+  display: inline-block;
+  padding-top: 90px;
+  padding-left: 465px;
+}
+
+.LasagneList h2 {
+  padding-bottom: 15px;
+}
+
+.LasagneSteps {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  width: 700px;
+  margin-left: 1220px;
+  padding-top: 326px;
+  flex-direction: column;
+
+}
+
+.LasagneSteps h2 {
+  padding-bottom: 15px;
+  padding-left: 14px;
 }
