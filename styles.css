@@ -140,17 +140,16 @@ h1 {
 }
 
 .bordered-list {
-  border: solid 2px rgb(255, 255, 255);
   border-radius: 5px;
   list-style-type: none;
-  padding: 0;
+  padding: 2px;
   border: 1px solid #ddd;
   overflow: hidden;
   float:left;
   border-radius: 40px;
 }
 
-.lasagne-list span {
+.LasagneList span {
   display: block;
 }
 
@@ -173,10 +172,9 @@ h1 {
 }
 
 .bordered-steps-text {
-  border: solid 2px rgb(255, 255, 255);
   border-radius: 5px;
   list-style-type: none;
-  padding: 0;
+  padding: 2px;
   border: 1px solid #ddd;
   overflow: hidden;
   float:left;
@@ -185,5 +183,195 @@ h1 {
 
 .back-button {
   display: inline-block;
+
+
+
+
+
+
+}/* Egg Fried Rice */
+
+
+
+.Egg {
+  color: white;
+  font-family: "Viaoda Libre";
+  text-shadow: 10px 3px 5px rgba(0, 5, 5, 0.5);
+}
+
+.background-egg {
+  background-image: url(https://wallpapercave.com/wp/wp11620200.jpg);
+  height: 100vh;
+}
+
+.Egg img{
+  width: 300px;
+  display: flex;
+  position: absolute;
+  left: 70%;
+  top: 35%;
+  border: solid 5px white;  
+}
+
+h1 {
+  font-size: 75px;
+  text-align: center;
+}
+
+.DescriptionEgg  {
+    
+    text-align: center;
+    
+}
+
+.EggList h2 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.bordered-list {
   
+  border-radius: 5px;
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  float:left;
+  border-radius: 40px;
+  padding: 2px;
+}
+
+.EggList span {
+  display: block;
+}
+
+.EggList {
+  display: inline-block;
+  position: absolute;
+  margin-top: 60px;
+}
+
+.EggSteps {
+  display: inline-block;
+  width: 750px;
+  margin-left: 350px;
+  margin-top: 60px; 
+}
+
+.EggSteps h2 {
+  font-size: 50px;
+  text-align: center; 
+}
+
+.bordered-steps-text {
+  border-radius: 5px;
+  list-style-type: none;
+  padding: 2px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  float:left;
+  border-radius: 40px;
+
+}
+
+.back-button {
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* PIZZAAAAAA */
+
+
+.Pizza {
+  color: white;
+  font-family: "Viaoda Libre";
+  text-shadow: 10px 3px 5px rgba(0, 5, 5, 0.5);
+}
+
+.background-pizza {
+  background-image: url(https://wallpapercave.com/wp/wp11620200.jpg);
+  height: 100vh;
+}
+
+.Pizza img{
+  width: 400px;
+  display: flex;
+  position: absolute;
+  left: 70%;
+  top: 35%;
+  border: solid 5px white;  
+}
+
+h1 {
+  font-size: 75px;
+  text-align: center;
+}
+
+.DescriptionPizza  {
+    
+    text-align: center;
+    
+}
+
+.PizzaList h2 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.bordered-list {
+  
+  border-radius: 5px;
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  float:left;
+  border-radius: 40px;
+  padding: 2px;
+}
+
+.PizzaList span {
+  display: block;
+}
+
+.PizzaList {
+  display: inline-block;
+  position: absolute;
+  margin-top: 60px;
+}
+
+.PizzaSteps {
+  display: inline-block;
+  width: 750px;
+  margin-left: 350px;
+  margin-top: 60px; 
+}
+
+.PizzaSteps h2 {
+  font-size: 50px;
+  text-align: center; 
+}
+
+.bordered-steps-text {
+  border-radius: 5px;
+  list-style-type: none;
+  padding: 2px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  float:left;
+  border-radius: 40px;
+
+}
+
+.back-button {
+  display: inline-block;
 }
